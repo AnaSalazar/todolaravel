@@ -7,3 +7,21 @@
 
 // Bootstrap
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+body {
+  background-color: $body-bg;
+  color: $text-color;
+}
+
+a {
+  color: #00FFFF;
+}
+
+.btn-pink {
+  background-color: pink;
+  color: $body-bg;
+}
+
+.btn-link {
+  color: Aqua;
+}
